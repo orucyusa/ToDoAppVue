@@ -16,7 +16,7 @@ describe('Todo.vue', () => {
     }
       ]
     // it renders correctly with given props
-    test('is renders correctly with given props', async () => {
+    test('is renders correctly', async () => {
       axios.get.mockResolvedValue({
         data : todo
       })
